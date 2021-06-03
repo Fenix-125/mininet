@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-
 """Project: Test basic
    Test creation and all-pairs ping for each included mininet topo type."""
-
 import unittest
 
 from mininet.clean import cleanup
