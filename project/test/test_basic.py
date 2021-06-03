@@ -5,10 +5,10 @@
 
 import unittest
 
+from mininet.clean import cleanup
+from mininet.log import setLogLevel
 from mininet.net import Mininet
 from mininet.topo import SingleSwitchTopo
-from mininet.log import setLogLevel
-from mininet.clean import cleanup
 
 
 class testBasic(unittest.TestCase):
