@@ -23,6 +23,6 @@ class testBasic(unittest.TestCase):
         self.assertEqual(dropped, 0)
 
 
-if __name__ == '__main__':
-    setLogLevel('warning')
+if __name__ == "__main__":
+    setLogLevel("warning")
     unittest.main()
